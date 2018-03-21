@@ -1,4 +1,5 @@
 'use strict'
+const prettierRules = require('./prettierrc.js')
 
 module.exports = {
   parserOptions: {
@@ -27,8 +28,10 @@ module.exports = {
     'no-console': 2,
     'no-debugger': 2,
     'guard-for-in': 0,
-
+    'quotes': ['error', 'backtick', { 'avoidEscape': true }],
+    'linebreak-style': 0,
     // Import
+    'import/prefer-default-export': 0,
     'import/no-extraneous-dependencies': [
       2,
       {
@@ -51,14 +54,7 @@ module.exports = {
     // Prettier
     'prettier/prettier': [
       'error',
-      {
-        printWidth: 100,
-        trailingComma: 'none',
-        singleQuote: true,
-        semi: false,
-        jsxBracketSameLine: false,
-        bracketSpacing: true
-      }
+      prettierRules
     ]
   }
 }

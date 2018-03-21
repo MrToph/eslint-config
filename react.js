@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     // React
     'react/jsx-filename-extension': 0,
+    'react/prefer-stateless-function': 0,
     'react/sort-comp': [
       2,
       {

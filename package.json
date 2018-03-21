@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-okonet",
+  "name": "eslint-config-cmichel",
   "version": "0.0.0-development",
   "description": "ESLint rules from Andrey Okonetchnikov",
   "files": [
