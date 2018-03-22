@@ -1,5 +1,5 @@
 'use strict'
-const prettierRules = require('./prettierrc.js')
+const prettierRules = require('./.prettierrc.js')
 
 module.exports = {
   parserOptions: {
