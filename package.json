@@ -2,11 +2,6 @@
   "name": "eslint-config-cmichel",
   "version": "1.0.1",
   "description": "ESLint rules by Christoph Michel",
-  "files": [
-    "index.js",
-    "react.js",
-    "node.js"
-  ],
   "scripts": {
     "postinstall": "install-peerdeps eslint-config-cmichel --dev --only-peers",
     "test": "npm run lint",
