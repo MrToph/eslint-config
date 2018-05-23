@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cmichel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules by Christoph Michel",
   "files": [
     "index.js",
