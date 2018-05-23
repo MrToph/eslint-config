@@ -1,25 +1,22 @@
-# eslint-config-okonet
+# eslint-config-cmichel
 
-[![npm](https://img.shields.io/npm/v/eslint-config-okonet.svg)](https://www.npmjs.com/package/eslint-config-okonet)
-[![Build Status](https://travis-ci.org/okonet/eslint-config-okonet.svg?branch=master)](https://travis-ci.org/okonet/eslint-config-okonet)
-
-ESLint rules from Andrey Okonetchnikov
+Forked from [eslint-config-okonet](https://www.npmjs.com/package/eslint-config-okonet).
 
 ## Installation
 
-1. `npm install --save-dev eslint eslint-config-okonet`
+1. `npm install --save-dev eslint eslint-config-cmichel`
 2. Add following block to `package.json`
 
 ```json
 "eslintConfig": {
     "extends": [
-      "okonet"
+      "cmichel"
     ]
   }
 ```
 
 This will add generic config.
 
-For React.js projects, extend from `okonet/react`
+For React.js projects, extend from `cmichel/react`
 
-For Node.js projects, extend from `okonet/node`
+For Node.js projects, extend from `cmichel/node`
