@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cmichel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint rules by Christoph Michel",
   "scripts": {
     "postinstall": "install-peerdeps eslint-config-cmichel --dev --only-peers",
