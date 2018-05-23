@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-cmichel",
-  "version": "0.0.0-development",
-  "description": "ESLint rules from Andrey Okonetchnikov",
+  "version": "1.0.0",
+  "description": "ESLint rules by Christoph Michel",
   "files": [
     "index.js",
     "react.js",
     "node.js"
   ],
   "scripts": {
-    "postinstall": "install-peerdeps eslint-config-okonet --dev --only-peers",
+    "postinstall": "install-peerdeps eslint-config-cmichel --dev --only-peers",
     "test": "npm run lint",
     "lint": "eslint .",
     "precommit": "lint-staged",
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/okonet/eslint-config-okonet.git"
+    "url": "https://github.com/MrToph/eslint-config.git"
   },
-  "author": "Andrey Okonetchnikov",
+  "author": "Christoph Michel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okonet/eslint-config-okonet/issues"
+    "url": "https://github.com/MrToph/eslint-config/issues"
   },
-  "homepage": "https://github.com/okonet/eslint-config-okonet#readme",
+  "homepage": "https://github.com/MrToph/eslint-config#readme",
   "dependencies": {
     "install-peerdeps": "^1.2.0"
   },
@@ -63,9 +63,6 @@
     "lint-staged": "^4.0.4",
     "npm-check": "^5.0.1",
     "prettier": "^1.6.1"
-  },
-  "eslintConfig": {
-    "extends": "./node.js"
   },
   "engines": {
     "node": ">= 4"
