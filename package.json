@@ -41,6 +41,7 @@
     "eslint-plugin-node": "5.x",
     "eslint-plugin-prettier": "2.x",
     "eslint-plugin-react": "7.x",
+    "eslint-plugin-vue": "4.x",
     "prettier": "*"
   },
   "devDependencies": {
@@ -54,6 +55,7 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-vue": "^4.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.4",
     "npm-check": "^5.0.1",
