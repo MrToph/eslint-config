@@ -9,7 +9,7 @@ module.exports = {
     browser: true,
     commonjs: true
   },
-  extends: ['./index.js', 'plugin:vue/recommended', 'eslint-config-prettier/react'].map(
+  extends: ['./index.js', 'plugin:vue/recommended'].map(
     require.resolve
   ),
   // required to lint *.vue files

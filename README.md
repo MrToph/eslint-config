@@ -19,4 +19,6 @@ This will add generic config.
 
 For React.js projects, extend from `cmichel/react`
 
+For React.js projects, extend from `cmichel/vue`
+
 For Node.js projects, extend from `cmichel/node`
