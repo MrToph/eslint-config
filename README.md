@@ -22,3 +22,8 @@ For React.js projects, extend from `cmichel/react`
 For React.js projects, extend from `cmichel/vue`
 
 For Node.js projects, extend from `cmichel/node`
+
+> If you're working with node make sure to add the "engines" field to your package.json
+> "engines": {
+>   "node": ">=8.0.0"
+> },
