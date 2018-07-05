@@ -49,6 +49,12 @@ module.exports = {
         ]
       }
     ],
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
 
     // Prettier
     'prettier/prettier': [
