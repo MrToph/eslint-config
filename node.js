@@ -2,7 +2,7 @@
 
 module.exports = {
   parserOptions: {
-    sourceType: 'script'
+    sourceType: 'module'
   },
   env: {
     node: true
@@ -10,7 +10,6 @@ module.exports = {
   plugins: ['node'],
   extends: ['./index.js', 'plugin:node/recommended'],
   rules: {
-    strict: ['error', 'global'],
-    'node/exports-style': ['error', 'module.exports']
+    'no-console': "warn"
   }
 }
